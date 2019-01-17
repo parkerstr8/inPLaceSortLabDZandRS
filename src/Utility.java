@@ -40,7 +40,7 @@
 
      public static int[] arrInt ( int count)
      {
-         String[] arr = new String[count];
+         String[] arr = new String [count];
          int i=0;
          int n=0;
          while(i<arr.length)
@@ -51,7 +51,20 @@
          return arrInt(7);
      }
 
-        public static boolean sortCheck(int[]arr)
+     public static double[] arrDouble (int count)
+     {
+         String[] arr = new String[count];
+         int i=0;
+         double n=0;
+         while(i<arr.length)
+         {
+             n=((Math.random()*11)-1);
+             i++;
+         }
+         return arrDouble(7);
+     }
+
+     public static boolean sortCheck(int[]arr)
         {
             for(int x=0; x<arr.length-1;x++)
             {
