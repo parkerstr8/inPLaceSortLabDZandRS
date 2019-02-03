@@ -40,9 +40,9 @@ public class Runner
     public static void main(String args[])
     {
 
-        String[] testArr = Utility.arr(7);
-        int[] testArr2= Utility.arrInt(7);
-        double[]testArr3=Utility.arrDouble(7);
+        String[] testArr = Utility.arr(70);
+        int[] testArr2= Utility.arrInt(70);
+        double[]testArr3=Utility.arrDouble(70);
 
         System.out.println("Before: ");
         for(String num:testArr) {
@@ -83,10 +83,13 @@ public class Runner
             System.out.println();
         }
 
-        Utility.
-
-
-
+        Utility.mergeSort(testArr2);
+        System.out.println("After ");
+        for (int num: testArr2)
+        {
+            System.out.println(num + " ");
+            System.out.println();
+        }
 
     }
 

@@ -139,15 +139,14 @@
          }
      }
 
-     public void mergeSort(int[] arr)
+     public static void mergeSort(int[] arr)
      {
          int n=arr.length;
          int[] temp= new int[n];
          mergeHelper(arr, 0, n-1, temp);
-
      }
 
-     public void mergeHelper(int[] arr, int left, int right, int[] temp)
+     public static void mergeHelper(int[] arr, int left, int right, int[] temp)
      {
          if(left<right)
          {
